@@ -38,12 +38,17 @@ Obtained Output:
 
 * CycleTime ≈ 55 minutes
 
-Add your screenshots below:
+### Dirt Level Membership Function
+![Dirt Level Membership Function](Q1_WashingMachine/DirtLevelGraph.jpeg)
 
-* DirtLevel membership function
-* LoadSize membership function
-* CycleTime membership function
-* Rule Viewer output
+### Load Size Membership Function
+![Load Size Membership Function](Q1_WashingMachine/LoadSizeGraph.jpeg)
+
+### Cycle Time Membership Function
+![Cycle Time Membership Function](Q1_WashingMachine/CycleTimeGraph.jpeg)
+
+### Rule Viewer Output
+![Rule Viewer Output](Q1_WashingMachine/WashingMachineCycle.jpeg)
 
 ---
 
@@ -76,3 +81,6 @@ Sample Training Data:
 | 60         | 55         | 58   | 55          |
 
 Training was performed for 50 epochs. The training error graph is attached below.
+
+### ANFIS Training Error Graph
+![ANFIS Training Error](Q2_StudentPerformance/ANFISTrainingError.jpeg)
