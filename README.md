@@ -72,6 +72,8 @@ Performance Categories:
 
 The ANFIS model combines fuzzy rules with neural network learning. The fuzzy system provides initial rules, while the neural network adjusts the membership functions and rule parameters during training.
 
+The fuzzy inference system is first generated using genfis1(), which creates initial fuzzy rules and membership functions. Then the anfis() function applies neural network learning to train the fuzzy system using the dataset. During training, the membership function parameters and rule weights are adjusted automatically to minimize prediction error.
+
 Sample Training Data:
 
 | Attendance | Assignment | Test | Performance |
